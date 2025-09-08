@@ -1,3 +1,8 @@
 # comp-2040-02
 
-something anything
+## reasons to refactor
+- PEP8 compliance
+- readability
+- reusability
+- reduce/avoid repetition
+- performance/u
