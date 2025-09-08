@@ -4,13 +4,13 @@
 def area_rectangle(length, width):
     return length * width
 
-length1 = 10
-width1 = 5
-area_rectangle1 = area_rectangle(length1, width1)
+rectangles = [
+    {"length": 10, "width": 5},
+    {"length": 15, "width": 7}
+]
 
-length2 = 15
-width2 = 7
-area_rectangle2 = area_rectangle(length2, width2)
+area_rectangle1 = area_rectangle(rectangles[0]["length"], rectangles[0]["width"])
+area_rectangle2 = area_rectangle(rectangles[1]["length"], rectangles[1]["width"])
 
 # Calculating area of circles
 radius1 = 4
