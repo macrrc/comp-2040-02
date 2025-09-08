@@ -1,6 +1,17 @@
 # code file for exercise 1.1 
 # Calculating area of rectangles
 
+# read each line from the text file
+# parse the string to extract the data
+# type: rectangle, name: first, length: 10, width: 5
+# split the string based the delimiter ","
+#   returns a list of key: value pairs
+# loop through the list
+# and split each member by the delimiter ": "
+# determine if the line represents a rectangle or circle
+# either add the shape to the appropriate dictionary
+# or refactor the loops into a new function
+
 def area_rectangle(length, width):
     return length * width
 
