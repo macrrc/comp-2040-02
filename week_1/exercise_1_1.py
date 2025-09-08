@@ -16,11 +16,18 @@ for rectangle in rectangles:
     print(f"Area of {rectangle["name"]} rectangle: {area}")
 
 # Calculating area of circles
-radius1 = 4
-area_circle1 = 3.14 * (radius1 ** 2)
-
-radius2 = 6
-area_circle2 = 3.14 * (radius2 ** 2)
-
-print("Area of first circle:", area_circle1)
-print("Area of second circle:", area_circle2)
+def area_circle(radius):
+    return 3.14 * (radius ** 2)
+ 
+# List of dictionaries for circles
+circles = [
+    {"name": "first", "radius": 4},
+    {"name": "second", "radius": 6}
+]
+ 
+# For loop to read variable and print
+for circle in circles:
+    # calculate area
+    area = area_circle(circle["radius"])
+    # print the output
+    print(f"Area of {circle['name']} circle: {area}")
