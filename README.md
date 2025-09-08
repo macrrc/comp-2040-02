@@ -5,4 +5,4 @@
 - readability
 - reusability
 - reduce/avoid repetition
-- performance/u
+- performance/usability
